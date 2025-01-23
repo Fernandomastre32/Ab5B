@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'elemento2',
     loadChildren: () => import('./elemento2/elemento2.module').then( m => m.Elemento2PageModule)
   },
+  {
+    path: 'tiempo',
+    loadChildren: () => import('./tiempo/tiempo.module').then( m => m.TiempoPageModule)
+  },
 ];
 
 @NgModule({
